@@ -1,0 +1,19 @@
+.card img {
+    max-width: 100px;
+}
+
+.card{
+    max-width: 200px;
+    padding: 20px;
+    margin: 19px;
+    background-color: beige;
+    box-shadow: 0 0 50px grey;
+    border-radius: 10px;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.card > div {
+    max-height: 160px;
+    overflow: scroll;
+}
