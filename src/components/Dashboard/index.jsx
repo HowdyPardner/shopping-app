@@ -1,12 +1,12 @@
-import Cart from '../Cart';
+import Cart from '../../pages/Cart';
 import Menu from '../Menu';
-import ProductList from '../ProductList';
+import ProductList from '../../pages/ProductList';
 import './index.css';
 
 
 const Dashboard = () => {
   return (
-    <div id='dashboard'>
+    <div id="dashboard">
         <h1>Dashboard - select some products!</h1>
         <Menu />
         <ProductList />

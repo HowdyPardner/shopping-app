@@ -2,3 +2,10 @@
     background-color: lightblue;
     grid-column: span 2;
 }
+
+#navbar button {
+    padding: 12px;
+    background-color: lightblue;
+    margin: 12px;
+    border: 1px solid black;
+}
